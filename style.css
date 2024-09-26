@@ -25,7 +25,6 @@ header{
     border-style: none;
     font-size: 18px;
     color: white;
-
 }
 
 #instagram{
@@ -38,14 +37,28 @@ header{
     margin-top: 25px;
 }
 
-hr{
+#hr1{
     height: 780px;
     margin-left: 50px;
+    border-color: rgba(255, 255, 255, 0.123);
+}
+
+.hr2{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 20%;
+    border-color: rgba(255, 255, 255, 0.123)
+
 }
 
 #img{
     display: flex;
     gap: 10px;
+    margin-left: 50px;
+}
+
+#img2{
+
 }
 
 .historia{
@@ -63,6 +76,20 @@ hr{
 .historia img{
     width: 70px;
     height: 70px;
+    border-radius: 50px;
+}
+
+.historia1{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.historia1 img{
+    display: flex;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
     border-radius: 50px;
 }
@@ -76,4 +103,79 @@ span{
 
 #tudo{
     display: flex;
+}
+
+#img-mulher img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(to right,#6827C3,#C61F67,#EE5430,#F5A23C,#F8D26D);
+    margin-left: 20%;
+    margin-top: 50px;
+    border: 2px black;
+}
+
+.name{
+    margin-left: 23%;
+    margin-top: -25px;
+}
+
+#img-mulher2{
+    
+}
+
+.img2 img{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+#formas{
+    display: flex;
+    color: white;
+    gap: 285px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+
+.formas{
+    display: flex;
+    gap: 20px;
+}
+
+.span1{
+    display: flex;
+    margin-left: 18%;
+    margin-top: 10px;
+}
+
+.span2{
+    margin-left: 17.6%;
+    margin-top: 10px;
+}
+
+.span3{
+    margin-left: 17.9%;
+}
+
+.span4{
+    margin-left: 17.8%;
+    margin-top: 10px;
+}
+.span{
+    color: rgba(255, 255, 255, 0.301);
+}
+
+.b{
+    margin-left: 5px;
+}
+
+.emog{
+    color: rgba(255, 255, 255, 0.39);
+    margin-left: 50%;
+    margin-top: -20px;
 }
